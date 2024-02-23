@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "bu/LkhrCtyU9dGSjbAxIZ3GmGB0/hpxGnCL6jZ2xF4IsI2cW4jcmDa18Tm2sjIp2CLki8WEJboAjR9QdIrkfMQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\V15734\\source\\repos\\open-source\\json-schema-generation-repo\\JsonSchemaGenerator\\JsonSchemaGenerator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\V15734\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\V15734\\.nuget\\packages\\json.more.net\\2.0.0\\json.more.net.2.0.0.nupkg.sha512",
+    "C:\\Users\\V15734\\.nuget\\packages\\jsonpointer.net\\4.0.0\\jsonpointer.net.4.0.0.nupkg.sha512",
+    "C:\\Users\\V15734\\.nuget\\packages\\jsonschema.net\\6.0.3\\jsonschema.net.6.0.3.nupkg.sha512",
+    "C:\\Users\\V15734\\.nuget\\packages\\jsonschema.net.generation\\4.1.0\\jsonschema.net.generation.4.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

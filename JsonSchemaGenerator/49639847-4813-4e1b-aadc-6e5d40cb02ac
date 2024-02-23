@@ -1,0 +1,53 @@
+﻿{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "age": {
+      "type": "string"
+    },
+    "secretLevel": {
+      "type": "string"
+    },
+    "address": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "street": {
+          "type": "string"
+        },
+        "zipCode": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "street",
+        "zipCode"
+      ]
+    }
+  },
+  "required": [
+    "name",
+    "age",
+    "secretLevel"
+  ],
+  "if": {
+    "properties": {
+      "secretLevel": {
+        "const": "secret"
+      }
+    },
+    "required": [
+      "secretLevel"
+    ]
+  },
+  "then": {
+    "required": [
+      "address"
+    ]
+  },
+  "title": "E.ON ectocloud Author"
+}

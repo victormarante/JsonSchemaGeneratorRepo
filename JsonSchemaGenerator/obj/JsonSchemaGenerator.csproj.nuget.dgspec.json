@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\V15734\\source\\repos\\open-source\\json-schema-generation-repo\\JsonSchemaGenerator\\JsonSchemaGenerator.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\V15734\\source\\repos\\open-source\\json-schema-generation-repo\\JsonSchemaGenerator\\JsonSchemaGenerator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\V15734\\source\\repos\\open-source\\json-schema-generation-repo\\JsonSchemaGenerator\\JsonSchemaGenerator.csproj",
+        "projectName": "JsonSchemaGenerator",
+        "projectPath": "C:\\Users\\V15734\\source\\repos\\open-source\\json-schema-generation-repo\\JsonSchemaGenerator\\JsonSchemaGenerator.csproj",
+        "packagesPath": "C:\\Users\\V15734\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\V15734\\source\\repos\\open-source\\json-schema-generation-repo\\JsonSchemaGenerator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\V15734\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/eonectocloud/Ectocloud/_packaging/ectocloudshared/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "JsonSchema.Net.Generation": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
